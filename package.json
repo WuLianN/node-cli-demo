@@ -1,0 +1,21 @@
+{
+  "name": "node-cli-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.mjs",
+  "directories": {
+    "examples": "examples"
+  },
+  "scripts": {
+    "staging": "echo staging",
+    "production": "echo prodction"
+  },
+  "author": "WuLianN",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.1.4",
+    "json5": "^2.2.3",
+    "shelljs": "^0.8.5"
+  }
+}
