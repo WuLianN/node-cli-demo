@@ -42,7 +42,7 @@ inquirer
       });
   })
   .catch((error) => {
-    console.info("报错: ", error);
+    console.error("报错: ", error);
   });
 
 function changePagesConfig(envType) {
